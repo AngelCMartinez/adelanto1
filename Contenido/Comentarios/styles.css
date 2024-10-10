@@ -24,11 +24,14 @@ body {
 }
 
 .container {
-    background-color: rgba(255, 255, 255, 0.7);
-    padding: 200px;
-    border-radius: 15px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    width: 90%; /* Aumenta el ancho al 90% del ancho de la pantalla */
+    max-width: 800px; /* Aumenta el ancho máximo a 800px para pantallas grandes */
+    background-color: rgba(255, 255, 255, 0.8); /* Ajusta la transparencia y color */
+    padding: 20px; /* Aumenta el padding para un mejor espaciado */
+    border-radius: 15px; /* Esquinas redondeadas */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3); /* Ajusta la sombra para mayor profundidad */
     text-align: center;
+    margin: 20px; /* Agrega un margen si deseas más espacio alrededor */
 }
 
 table {
